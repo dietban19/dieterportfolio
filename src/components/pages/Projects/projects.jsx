@@ -25,7 +25,7 @@ export default function Projects() {
                 </a>
               </button>
               <div className="imageOverlay__title">Real Estate App</div>
-              <div className="imageOverlay__desc">Description</div>
+              <div className="imageOverlay__desc">Descriptions</div>
             </div>
           </div>
           {/* Age Calculator */}
