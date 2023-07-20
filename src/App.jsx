@@ -1,8 +1,8 @@
 import Layout from "./components/Layout";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import About from "./components/pages/About.jsx";
-import Contact from "./components/pages/Contact.jsx";
-import Projects from "./components/pages/Projects.jsx";
+import About from "./components/pages/About/About.jsx";
+import Contact from "./components/pages/Contact/contact.jsx";
+import Projects from "./components/pages/Projects/Projects.jsx";
 import FEM from "./components/pages/FEM";
 import { useState } from "react";
 

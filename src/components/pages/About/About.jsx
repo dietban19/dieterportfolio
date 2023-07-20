@@ -1,14 +1,13 @@
 import React from "react";
-import styles from "./pages.module.css";
 
 import { Link } from "react-router-dom";
-
+import "./about.css";
 export default function About() {
   return (
     <section id="about" className="about-wrapper">
       <div className="paddings innerWidth flexCenter about-container">
-        <h1>About</h1>
-        <p className={styles.text}>
+        <h1 className="primaryText">About</h1>
+        <p className="text">
           I am software engineering student who is passionate in programming and
           engineering. My portfolio represents a dynamic journey of growth and
           achievment in the field of Web and App Development. Throughout my
@@ -16,19 +15,19 @@ export default function About() {
           work on diverse projects, ranging from Website Challenges like
           FrontEndMentor to my own project ideas.
         </p>
-        <p className={styles.text}>
+        <p className="text">
           These projects has allowed me to develop a strong foundation in
           programming languages, problem-solving techniques, and design.
           Although, I am still constantly learning new concepts everyday, and I
           am eager to get better as the journey goes on.
         </p>
-        <p className={styles.text}>
+        <p className="text">
           My web/app development projects reflect a deep understanding of HTML,
           CSS, Javascript and various frameworks. From responsive design to
           interactive user interfaces, I pride myself on delivering engaging
           websites that prioritize user experience.
         </p>
-        <p className={styles.text}>
+        <p className="text">
           As I move forward in my career, I can't help but feel excited about
           the prospect of taking on more significant projects. Working alongside
           talented teams and diving into cutting-edge technology to create

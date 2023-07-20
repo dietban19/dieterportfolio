@@ -1,0 +1,12 @@
+.text {
+  font-size: var(--fs-400);
+  color: white;
+}
+
+.about-container {
+  background-color: var(--clr-primary-700);
+}
+.primaryText {
+  font-size: 3rem;
+  color: var(--lightBlue);
+}

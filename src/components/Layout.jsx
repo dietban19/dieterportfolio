@@ -4,9 +4,9 @@ import { useState, useEffect } from "react";
 import { Outlet, useNavigate } from "react-router-dom";
 import { scroller } from "react-scroll";
 import NavBar from "./NavBar";
-import About from "./pages/About.jsx";
-import Projects from "./pages/Projects.jsx";
-import Contacts from "./pages/Contact.jsx";
+import About from "./pages/About/About.jsx";
+import Projects from "./pages/Projects/projects.jsx";
+import Contacts from "./pages/Contact/contact.jsx";
 import Home from "./pages/Home";
 
 export default function Layout({ isNavOpen, toggleNav }) {

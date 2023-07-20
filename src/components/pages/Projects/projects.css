@@ -1,0 +1,66 @@
+.projectsTitle {
+  font-size: 3.1rem;
+  color: var(--clr-primary-600);
+  /* color: red; */
+}
+
+.projects-container {
+  gap: 1.2rem;
+}
+.projects-container > div {
+  flex: 1;
+}
+
+.projectImageContainer {
+  position: relative;
+  width: 35rem;
+  height: 30rem;
+}
+
+.projectImage {
+  display: block;
+  width: 100%;
+}
+
+.imageOverlay {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(29, 138, 47, 0.635);
+  opacity: 0;
+  transition: opacity 0.25s ease-in-out;
+}
+.imageOverlay:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.imageOverlay__title {
+  font-weight: 600;
+  font-size: 1.75rem;
+}
+.imageOverlay__desc {
+  color: rgb(216, 216, 216);
+}
+
+.openButton .imageIcon {
+  color: white;
+}
+.imageOverlay > .openButton {
+  background-color: rgba(178, 178, 178, 0.703);
+  border: none;
+  /* color: white; */
+}
+.openButton:hover {
+  background-color: white;
+}
+.gr-add-circle-icon {
+  color: #ff0000; /* Replace #FF0000 with the color you want */
+}

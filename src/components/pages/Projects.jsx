@@ -4,15 +4,18 @@ import { Link } from "react-router-dom";
 export default function Projects() {
   return (
     <div>
-      <section id="projects" className={styles.sectionContainer}>
-        <div className={styles.mainContainer}>
-          <h1>My Projects</h1>
-          <div className={styles.project}>
-            <h3>My Submissions for FrontEnd Manager</h3>
+      <section id="projects" className="projects-wrapper">
+        <div className="paddings innerWidth flexColCenter projects-container">
+          <h1 className="primaryText projectsTitle">My Projects</h1>
+
+          <div className="flexColCenter projectContent">
+            <h3 className="orangeText">My Submissions for FrontEnd Manager</h3>
             <Link to="/FEM" target="_blank">
               <button>Click Here!</button>
             </Link>
-            <h1>Try My Age Calculator!</h1>
+          </div>
+          <div className="flexColCenter projectContent">
+            <h1 className="orangeText">Try My Age Calculator!</h1>
             <button>
               <a
                 href="https://deluxe-sprite-40889e.netlify.app/"
