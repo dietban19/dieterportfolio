@@ -6,7 +6,7 @@ export default function About() {
   return (
     <section id="about" className="about-wrapper">
       <div className="paddings innerWidth flexCenter about-container">
-        <h1 className="primaryText">About</h1>
+        <h1 className="primaryTexts">About</h1>
         <p className="text">
           I am software engineering student who is passionate in programming and
           engineering. My portfolio represents a dynamic journey of growth and
